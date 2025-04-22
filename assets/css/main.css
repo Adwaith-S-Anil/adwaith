@@ -269,26 +269,15 @@ h6 {
     display: none;
   }
 }
-
-.navmenu a:hover,
-.navmenu .active,
-.navmenu .active:focus,
-.navmenu li:hover>a {
+.navmenu a:hover, .navmenu .active, .navmenu .active:focus, .navmenu li:hover>a {
   color: var(--contrast-color);
   background: var(--nav-hover-color);
 }
 
-.navmenu a:hover,
-.navmenu li:hover>a {
-  max-width: 100%;
-  color: var(--contrast-color);
+.info-item {
+  position: relative;
+  right: 48px;
 }
-
-.navmenu a:hover span,
-.navmenu li:hover>a span {
-  display: block;
-}
-
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
